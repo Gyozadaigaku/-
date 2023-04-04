@@ -12,7 +12,7 @@ export const Jumbotron = () => {
   };
 
   return (
-    <div className="ml-auto mr-auto w-full box-border flex items-center flex-col pt-16 relative max-w-5xl z-10 min-h-[831px] h-[calc(100vh - 4rem)]">
+    <div className="ml-auto mr-auto w-full box-border flex items-center flex-col pt-16 relative max-w-5xl z-10 min-h-[831px] h-[calc(100vh - 4rem)] jumbotron_section">
       <h2 className="text-gray-600 text-base font-normal">New</h2>
       <img className="w-32" src={Iphone} alt="iPhone 14 Pro" />
       <p className="inline-block text-transparent mt-4 text-5xl font-semibold mb-4 pt-[0.5px] bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">
