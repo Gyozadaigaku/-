@@ -1,6 +1,6 @@
 export const SoundSection = () => {
   return (
-    <div className="w-full text-gray-900 bg-gray-100 h-screen">
+    <div className="w-full text-gray-900 bg-gray-100 h-screen sound_section">
       <div className="max-w-[980px] mx-auto">
         <div className="w-full flex items-center flex-col max-w-[490px] py-[200px]">
           <h2 className="text-gray-900 text-base font-normal mb-0">

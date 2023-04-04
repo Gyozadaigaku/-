@@ -2,6 +2,15 @@ import Iphone from "../assets/images/iphone-14.jpg";
 import HoldingIphone from "../assets/images/iphone-hand.png";
 
 export const Jumbotron = () => {
+  const handleLearnMore = () => {
+    const element = document.querySelector(".sound_section");
+    window.scrollTo({
+      top: element?.getBoundingClientRect().top,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="ml-auto mr-auto w-full box-border flex items-center flex-col pt-16 relative max-w-5xl z-10 min-h-[831px] h-[calc(100vh - 4rem)]">
       <h2 className="text-gray-600 text-base font-normal">New</h2>
@@ -19,7 +28,10 @@ export const Jumbotron = () => {
           </button>
         </li>
         <li>
-          <a className="no-underline text-blue-500 text-xl font-normal cursor-pointer mx-[14px]">
+          <a
+            className="no-underline text-blue-500 text-xl font-normal cursor-pointer mx-[14px]"
+            onClick={handleLearnMore}
+          >
             Learn more
           </a>
         </li>
