@@ -2,6 +2,7 @@ import { Navbar } from "./components/Navbar";
 import { Jumbotron } from "./components/Jumbotron";
 import { SoundSection } from "./components/SoundSection";
 import { DisplaySection } from "./components/DisplaySection";
+import { WebGIViewer } from "./components/WebGIViewer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Jumbotron />
       <SoundSection />
       <DisplaySection />
+      <WebGIViewer />
     </div>
   );
 }
